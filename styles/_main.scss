@@ -1,0 +1,237 @@
+
+.container{
+   max-width: 1440px;
+   width: 100%;
+   margin: 0px auto;
+   &__head{
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+   }
+}
+
+.head-block{
+   h2{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $subcolor;
+      margin-bottom: 15px;
+   }
+   h1{
+      color: $h1color;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 66px;
+      text-align: center;
+      text-transform: uppercase;
+   }
+
+}
+
+.head-block__lines{
+   margin-top: 40px;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   &--line1{
+      width: 210px;
+      height: 0px;
+      @extend %defaultborder;
+   }
+
+
+   &--line2{
+      width: 210px;
+      height: 0px;
+      @extend %defaultborder;
+   }
+}
+
+.main{
+   max-width: 1030px;
+   width: 100%;
+   margin: 0px auto;
+   margin-top: 40px;
+   display: flex;
+   gap: 85px;
+   &__line{
+      width: 0px;
+      height:560px;
+      @extend %defaultborder;
+   }
+}
+
+
+.left-block{
+   height: 430px;
+   margin-top: 65px;
+   position: relative;
+   &__image{
+      margin: 15px;
+   }
+   &__frame1{
+      border-top:1px solid $h1color;
+      border-left:1px solid $h1color;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+   &__frame2{
+      border-top:1px solid $h1color;
+      border-right:1px solid $h1color;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      right: 0;
+   }
+   &__frame3{
+      border-bottom:1px solid $h1color;
+      border-right:1px solid $h1color;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+   }
+   &__frame4{
+      border-bottom:1px solid $h1color;
+      border-left:1px solid $h1color;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+   }
+}
+
+.right-block{
+   margin-top: 70px;
+   &__info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      h2{
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 900;
+         font-size: 36px;
+         line-height: 42px;
+         text-align: center;
+         text-transform: capitalize;
+         color: $color;
+         margin-bottom: 30px;
+      }
+
+      div{
+         width: 100px;
+         height: 0px;
+         @extend %defaultborder;
+         margin-bottom: 30px;
+      }
+
+      p{
+         font-family: 'Raleway';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 36px;
+         text-align: center;
+         text-transform: capitalize;
+         color: $color;
+      }
+   }
+   &__text{
+      
+         font-family: 'Raleway';
+         font-style: normal;
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 24px;
+         text-align: center;
+         color: $textcolor;
+   }
+   &__button{
+      display: flex;
+      justify-content: center;
+   }
+   button{
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $color;
+      padding: 5px 10px;
+      background: none;
+      border: 2px solid $h1color;
+   }
+
+   button:hover{
+      background-color: #e66d0b;
+      border: 2px solid slateblue;
+      color: black;
+   }
+   
+}
+
+.right-block__social{
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   margin-bottom: 50px;
+   a{
+      border: 2px solid #cccccc;
+      border-radius: 100px;
+   }
+   a:hover{
+      border: 2px solid black;
+   }
+
+   a:hover use{
+      fill: black;
+   }
+}
+
+.right-block__items{
+   width: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   use{
+      fill: #cccccc;
+   }
+ 
+}
+
+.right-block__decor{
+   margin-bottom: 25px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   &--item{
+      width: 10px;
+      height: 4px;
+      background-color: $h1color;
+   }
+   &--item2{
+      width: 20px;
+      height: 4px;
+      background-color: $h1color;
+   }
+}
+

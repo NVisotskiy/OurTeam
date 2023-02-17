@@ -1,0 +1,255 @@
+.right-block__info div, .main__line, .head-block__lines--line2, .head-block__lines--line1 {
+  border: 1px solid #FFCC00;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container__head {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.head-block h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #898F8F;
+  margin-bottom: 15px;
+}
+
+.head-block h1 {
+  color: #FFCC00;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.head-block__lines {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.head-block__lines--line1 {
+  width: 210px;
+  height: 0;
+}
+
+.head-block__lines--line2 {
+  width: 210px;
+  height: 0;
+}
+
+.main {
+  max-width: 1030px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  gap: 85px;
+}
+
+.main__line {
+  width: 0;
+  height: 560px;
+}
+
+.left-block {
+  height: 430px;
+  margin-top: 65px;
+  position: relative;
+}
+
+.left-block__image {
+  margin: 15px;
+}
+
+.left-block__frame1 {
+  border-top: 1px solid #FFCC00;
+  border-left: 1px solid #FFCC00;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.left-block__frame2 {
+  border-top: 1px solid #FFCC00;
+  border-right: 1px solid #FFCC00;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.left-block__frame3 {
+  border-bottom: 1px solid #FFCC00;
+  border-right: 1px solid #FFCC00;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.left-block__frame4 {
+  border-bottom: 1px solid #FFCC00;
+  border-left: 1px solid #FFCC00;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.right-block {
+  margin-top: 70px;
+}
+
+.right-block__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.right-block__info h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.right-block__info div {
+  width: 100px;
+  height: 0px;
+  margin-bottom: 30px;
+}
+
+.right-block__info p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.right-block__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.right-block__button {
+  display: flex;
+  justify-content: center;
+}
+
+.right-block button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #666666;
+  padding: 5px 10px;
+  background: none;
+  border: 2px solid #FFCC00;
+}
+
+.right-block button:hover {
+  background-color: #fdcb00;
+  border: 2px solid #666666;
+  color: black;
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.right-block__social {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+
+.right-block__social a {
+  border: 2px solid #cccccc;
+  border-radius: 100px;
+}
+
+.right-block__social a:hover {
+  border: 2px solid black;
+}
+
+.right-block__social a:hover use {
+  fill: black;
+
+}
+
+.right-block__items {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-block__items use {
+  fill: #cccccc;
+}
+
+.right-block__decor {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.right-block__decor--item {
+  width: 10px;
+  height: 4px;
+  background-color: #FFCC00;
+}
+
+.right-block__decor--item2 {
+  width: 20px;
+  height: 4px;
+  background-color: #FFCC00;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
